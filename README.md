@@ -20,9 +20,9 @@ tasks:
     - create github repository with license (MIT) and readme (this file)
     - clone and create project
     - create package.json
+    - create package.json/scripts/init: npm install & npm init
 
     todo:
-    - create package.json/scripts/init: androidjs init 
     - setup webpack and create ./build folder
     - create package.json/scripts/clean: delete ./build
     - create package.json/scripts/build: clean && webpack
@@ -34,4 +34,20 @@ tasks:
     - find a way to use an android emulator to test apk
 
     issues:
-    - none yet
+    - empty these fields before npm init
+        - package.json
+            .name 
+            .description
+            .author 
+    - remove these fields before npm init
+        - package.json
+            .repository
+            .bugs
+            .homepage
+
+
+usage: //// UNTESTED YET ////
+    $ fork this project
+    $ git clone <your-forked-project>
+    $ cd <path/to/your/project>
+    $ npm run init
