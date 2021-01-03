@@ -1,5 +1,5 @@
 const fs = require('fs');
-let file = require('./package.json');
+let file = require(__dirname + '/../package.json');
 
 // empty fields
 file.name = "";
