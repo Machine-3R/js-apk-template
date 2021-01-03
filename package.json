@@ -1,14 +1,10 @@
 {
   "name": "js-apk-template",
   "version": "1.0.0",
-  "description": "project template to create android apk's",
-  "main": "main.js",
+  "description": "I want to create js applications for my Oculus Quest. So i need a way to \r streamline the creation of apkfiles to sideload into my Quest.\r Therefore I need a project template.",
+  "main": "./src/main.js",
   "scripts": {
-    "init": "npm install && npm init && mkdirp ./src && touch ./src/main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Machine-3R/js-apk-template.git"
+    "init": "npm install && node fix-package.json.js && npm init && mkdirp ./src && touch ./src/main.js"
   },
   "keywords": [
     "android",
@@ -16,12 +12,18 @@
     "webview",
     "js"
   ],
-  "author": "Machine-3R",
+  "author": "Edward",
   "license": "MIT",
+  "devDependencies": {
+    "mkdirp": "^1.0.4"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Machine-3R/js-apk-template.git"
+  },
   "bugs": {
     "url": "https://github.com/Machine-3R/js-apk-template/issues"
   },
-  "homepage": "https://github.com/Machine-3R/js-apk-template#readme",
-  "devDependencies": {},
-  "dependencies": {}
+  "homepage": "https://github.com/Machine-3R/js-apk-template#readme"
 }

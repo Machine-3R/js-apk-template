@@ -21,19 +21,6 @@ tasks:
     - clone and create project
     - create package.json
     - create package.json/scripts/init: npm install & npm init
-
-    todo:
-    - setup webpack and create ./build folder
-    - create package.json/scripts/clean: delete ./build
-    - create package.json/scripts/build: clean && webpack
-    - create package.json/scripts/apk: build && androidjs build
-    - update package.json/scripts/init to start with a minimal src
-    - change this readme to markup
-
-    extra:
-    - find a way to use an android emulator to test apk
-
-    issues:
     - empty these fields before npm init
         - package.json
             .name 
@@ -45,6 +32,20 @@ tasks:
             .bugs
             .homepage
 
+    todo:
+    - setup webpack and create ./build folder
+    - create package.json/scripts/clean: delete ./build
+    - create package.json/scripts/build: clean && webpack
+    - create package.json/scripts/apk: build && androidjs build
+    - update package.json/scripts/init to start with a minimal src
+    - change this readme to markup
+
+    extra:
+    - find a way to use an android emulator to test apk
+    - create package.json/scripts/test: test apk
+
+    issues:
+    - none yet
 
 usage: //// UNTESTED YET ////
     $ fork this project
