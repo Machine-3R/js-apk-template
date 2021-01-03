@@ -19,9 +19,9 @@ tasks:
     done:
     - create github repository with license (MIT) and readme (this file)
     - clone and create project
+    - create package.json
 
     todo:
-    - create package.json
     - create package.json/scripts/init: androidjs init 
     - setup webpack and create ./build folder
     - create package.json/scripts/clean: delete ./build
