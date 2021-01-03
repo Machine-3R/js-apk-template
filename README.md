@@ -5,9 +5,10 @@ streamline the creation of apkfiles to sideload into my Quest.
 Therefore I need a project template.
 
 Being an amateur I might use your help and advise...but please, babysteps..
+
 Feel free to fork this project.
 
-using:
+## using:
 - npm
     - rimraf to delete files and folders (i'm on windows)
     - webpack (to create ./build folder from ./src folder)
@@ -15,7 +16,7 @@ using:
     - androidjs (to create ./src and apk file from ./build)
         (https://android-js.github.io/)
 
-tasks:
+## tasks:
     done:
     - create github repository with license (MIT) and readme (this file)
     - clone and create project
@@ -47,7 +48,7 @@ tasks:
     issues:
     - none yet
 
-usage: //// UNTESTED YET ////
+## usage: !!!! UNTESTED YET !!!!
     $ fork this project
     $ git clone <your-forked-project>
     $ cd <path/to/your/project>
