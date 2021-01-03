@@ -6,6 +6,7 @@
   "scripts": {
     "init": "npm run clean && npm install && node scripts/fix-package.json.js && npm init && mkdirp ./src && touch ./src/main.js",
     "clean": "rimraf ./build",
+    "build": "npm run clean && webpack"
   },
   "keywords": [
     "android",
@@ -16,8 +17,10 @@
   "author": "Edward",
   "license": "MIT",
   "devDependencies": {
-    "mkdirp": "^1.0.4"
+    "mkdirp": "^1.0.4",
     "rimraf": "^3.0.2",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
   },
   "dependencies": {},
   "repository": {

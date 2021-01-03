@@ -33,11 +33,11 @@ Feel free to fork this project.
             .bugs
             .homepage
     - change this readme to markup
-
-- todo:
     - setup webpack and create ./build folder
     - create package.json/scripts/clean: delete ./build
     - create package.json/scripts/build: clean && webpack
+
+- todo:
     - create package.json/scripts/apk: build && androidjs build
     - update package.json/scripts/init to start with a minimal src
 
