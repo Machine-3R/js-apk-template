@@ -17,7 +17,7 @@ Feel free to fork this project.
         (https://android-js.github.io/)
 
 ## tasks:
-    done:
+    ### done:
     - create github repository with license (MIT) and readme (this file)
     - clone and create project
     - create package.json
@@ -33,7 +33,7 @@ Feel free to fork this project.
             .bugs
             .homepage
 
-    todo:
+    ### todo:
     - setup webpack and create ./build folder
     - create package.json/scripts/clean: delete ./build
     - create package.json/scripts/build: clean && webpack
@@ -41,15 +41,15 @@ Feel free to fork this project.
     - update package.json/scripts/init to start with a minimal src
     - change this readme to markup
 
-    extra:
+    ### extra:
     - find a way to use an android emulator to test apk
     - create package.json/scripts/test: test apk
 
-    issues:
+    ### issues:
     - none yet
 
 ## usage: !!!! UNTESTED YET !!!!
-    $ fork this project
+    $ <fork this project>
     $ git clone <your-forked-project>
     $ cd <path/to/your/project>
     $ npm run init
