@@ -21,6 +21,7 @@ tasks:
     - clone and create project
 
     todo:
+    - create package.json
     - create package.json/scripts/init: androidjs init 
     - setup webpack and create ./build folder
     - create package.json/scripts/clean: delete ./build
@@ -28,6 +29,9 @@ tasks:
     - create package.json/scripts/apk: build && androidjs build
     - update package.json/scripts/init to start with a minimal src
     - change this readme to markup
+
+    extra:
+    - find a way to use an android emulator to test apk
 
     issues:
     - none yet
