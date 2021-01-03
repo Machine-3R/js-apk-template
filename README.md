@@ -17,36 +17,36 @@ Feel free to fork this project.
         (https://android-js.github.io/)
 
 ## tasks:
-    - done:
-        - create github repository with license (MIT) and readme (this file)
-        - clone and create project
-        - create package.json
-        - create package.json/scripts/init: npm install & npm init
-        - empty these fields before npm init
-            - package.json
-                .name 
-                .description
-                .author 
-        - remove these fields before npm init
-            - package.json
-                .repository
-                .bugs
-                .homepage
-        - change this readme to markup
+- done:
+    - create github repository with license (MIT) and readme (this file)
+    - clone and create project
+    - create package.json
+    - create package.json/scripts/init: npm install & npm init
+    - empty these fields before npm init
+        - package.json
+            .name 
+            .description
+            .author 
+    - remove these fields before npm init
+        - package.json
+            .repository
+            .bugs
+            .homepage
+    - change this readme to markup
 
-    - todo:
-        - setup webpack and create ./build folder
-        - create package.json/scripts/clean: delete ./build
-        - create package.json/scripts/build: clean && webpack
-        - create package.json/scripts/apk: build && androidjs build
-        - update package.json/scripts/init to start with a minimal src
+- todo:
+    - setup webpack and create ./build folder
+    - create package.json/scripts/clean: delete ./build
+    - create package.json/scripts/build: clean && webpack
+    - create package.json/scripts/apk: build && androidjs build
+    - update package.json/scripts/init to start with a minimal src
 
-    - extra:
-        - find a way to use an android emulator to test apk
-        - create package.json/scripts/test: test apk
+- extra:
+    - find a way to use an android emulator to test apk
+    - create package.json/scripts/test: test apk
 
-    - issues:
-        - none yet
+- issues:
+    - none yet
 
 ## usage: !!!! UNTESTED YET !!!!
     ```
