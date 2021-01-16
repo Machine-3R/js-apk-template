@@ -11,9 +11,10 @@ Feel free to fork this project.
 ## using:
 - npm
     - rimraf to delete files and folders (i'm on windows)
-    - webpack (to create ./build folder from ./src folder)
+    - mkdirp to create files and folders (still on windows)
+    - webpack ( from ./src folder to ./build folder)
         (https://webpack.js.org/)
-    - androidjs (to create ./src and apk file from ./build)
+    - androidjs (from ./build to create ./dist/ apk file)
         (https://android-js.github.io/)
 
 ## tasks:
@@ -24,9 +25,9 @@ Feel free to fork this project.
     - create package.json/scripts/init: npm install & npm init
     - empty these fields before npm init
         - package.json
-            .name 
+            .name
             .description
-            .author 
+            .author
     - remove these fields before npm init
         - package.json
             .repository
@@ -38,8 +39,17 @@ Feel free to fork this project.
     - create package.json/scripts/build: clean && webpack
 
 - todo:
+    - create build/package.json
+        - set androidjs fields
+        - copy dependencies
     - create package.json/scripts/apk: build && androidjs build
-    - update package.json/scripts/init to start with a minimal src
+    - create branch to test new idea
+        - update package.json/scripts/init to start with a minimal src
+            - i should start with script: init creating src from 
+            `androidjs init` and use script:build to copy and pack files. Will 
+            try it in a branch. Issue created at 
+            https://github.com/android-js/androidjs/issues/162, because 
+            currently `androidjs init` has 2 prompts
 
 - extra:
     - find a way to use an android emulator to test apk
