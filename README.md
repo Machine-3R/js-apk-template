@@ -25,14 +25,14 @@ Feel free to fork this project.
     - create package.json/scripts/init: npm install & npm init
     - empty these fields before npm init
         - package.json
-            .name
-            .description
-            .author
+            - .name
+            - .description
+            - .author
     - remove these fields before npm init
         - package.json
-            .repository
-            .bugs
-            .homepage
+            - .repository
+            - .bugs
+            - .homepage
     - change this readme to markup
     - setup webpack and create ./build folder
     - create package.json/scripts/clean: delete ./build
